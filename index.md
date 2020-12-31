@@ -28,6 +28,6 @@
 
 </head>
 <body>
-    <a class="button1 cyan" href="https://eytangut.github.io/learn_python/p/1">שיעור 1</a>
+    <a class="button1 blue" href="https://eytangut.github.io/learn_python/p/1">שיעור 1</a>
 </body>
 </html>
