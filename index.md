@@ -6,6 +6,6 @@
     
 </head>
 <body>
-    <a class="button1 cyan" href="https://eytangut.github.io/learn_python/p/1">hi</a>
+    <button class="button1 cyan" onclick="window.location.href='https://eytangut.github.io/learn_python/p/1';">hi</button>
 </body>
 </html>
