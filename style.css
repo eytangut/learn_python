@@ -1,0 +1,64 @@
+.button1 {
+    position: relative;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button1:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button1:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+   
+  .button1.green{
+    background-color: green;
+  }
+  .button1.blue{
+    background-color: blue;
+  }
+  .button1.red{
+    background-color: red;
+  }
+  .button1.yellow{
+    background-color: yellow;
+  }
+  .button1.grey{
+    background-color: grey;
+  }
+  .button1.purple{
+    background-color: purple;
+  }
+  .button1.pink{
+    background-color: pink;
+  }
+  .button1.orange{
+    background-color: orange;
+  }
+  .button1.cyan{
+    background-color: cyan;
+  }
+  .button1.white{
+    background-color: white;
+  }
